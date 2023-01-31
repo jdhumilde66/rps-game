@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: cornflowerblue;
+  color: whitesmoke;
+}
+
+.container {
+  height: 100%;
+  padding: 2rem;
+  text-align: center;
+}
+
+header {
+  margin-bottom: 1.5rem;
+}
+
+.user-name {
+  position: absolute;
+  width: 5%;
+  padding: .5rem;
+  top: 8rem;
+  left: 35rem;
+  background: #0000A0;
+  color: whitesmoke;
+  line-height: 1;
+  font-size: 1rem;
+}
+
+.computer-name {
+  position: absolute;
+  width: 7%;
+  padding: .5rem;
+  top: 8rem;
+  left: 50rem;
+  background: #9F000F;
+  color: whitesmoke;
+  line-height: 1;
+  font-size: 1rem;
+}
+
+.scoreboard {
+  margin: auto;
+  padding: .5rem;
+  border: 1px solid blanchedalmond;
+  border-radius: 10px;
+  width: 200px;
+  height: 100px;
+  line-height: 90px;
+  text-align: center;
+}
+
+.scoreboard > span {
+  font-size: 2em;
+  padding: .5em;
+  line-height: 1;
+}
+
+
+input {
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 10px;
+  background: transparent;
+  border: 1px solid blanchedalmond;
+  cursor: pointer;
+  color: whitesmoke;
+}
+
+p {
+  margin: 1rem;
+}
+
+.message {
+  padding: 1rem;
+  font-size: 2rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .user-name {
+    position: absolute;
+    width: 10%;
+    padding: .5rem;
+    top: 8rem;
+    left: 12rem;
+    background: #0000A0;
+    color: whitesmoke;
+    line-height: 1;
+    font-size: 1rem;
+  }
+  
+  .computer-name {
+    position: absolute;
+    width: 14%;
+    padding: .5rem;
+    top: 8rem;
+    left: 27rem;
+    background: #9F000F;
+    color: whitesmoke;
+    line-height: 1;
+    font-size: 1rem;
+  }
+}
